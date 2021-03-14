@@ -7,6 +7,8 @@ const randomNumberGenerator  = seedrandom(seed);
 /**
  * Credit for shuffle function: https://bost.ocks.org/mike/shuffle/
  * https://github.com/mbostock
+ *
+ * @todo REPLACE WITH LODASH SHUFFLE
  */
 
 export default function shuffle(array) {
