@@ -4,6 +4,10 @@ import seedrandom from 'seedrandom';
 const seed = 'Expecto Patronum'
 const randomNumberGenerator  = seedrandom(seed);
 
+/**
+ * Credit for shuffle function: https://bost.ocks.org/mike/shuffle/
+ * https://github.com/mbostock
+ */
 
 export default function shuffle(array) {
     let m = array.length
